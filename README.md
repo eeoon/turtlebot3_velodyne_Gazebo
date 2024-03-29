@@ -8,7 +8,6 @@ sudo apt-get update
 sudo apt install ros-humble-gazebo-ros
 
 sudo apt install ros-humble-gazebo-ros-pkgs
-
 ```
 
 example,
