@@ -5,11 +5,6 @@
 source /opt/ros/humble/setup.bash
 sudo apt-get update
 
-sudo apt-get install lsb-release wget gnupg
-
-sudo apt-get install ros-humble-ros-gz
-확인중.,
-
 sudo apt install ros-humble-gazebo-ros
 
 sudo apt install ros-humble-gazebo-ros-pkgs
@@ -29,7 +24,7 @@ sudo apt-get update
 mkdir -p eon_ws/src
 cd ~/eon_ws/src
 git clone https://github.com/eeoon/turtlebot3_velodyne_Gazebo.git
-cd ~/eon_ws
+cd ..
 colcon build
 source install/setup.bash
 export TURTLEBOT3_MODEL=burger
