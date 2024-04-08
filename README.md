@@ -1,6 +1,6 @@
 # Turtlebot3_World (burger with velodyne) Simulations for Training Gazebo.
 
-## Installation Gazebo (humlbe)
+## Installation Gazebo (humble)
 ```
 source /opt/ros/humble/setup.bash
 sudo apt-get update
