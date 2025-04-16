@@ -35,3 +35,14 @@ export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
 
+
+### IMU (Microstrain install Dependencies)
+```
+sudo apt-get install ros-humble-microstrain-inertial-driver
+sudo apt install ros-humble-mavros
+```
+
+### 3D_Liidar (Velodyne install Dependencies)
+```
+sudo apt install ros-humble-velodyne
+```
